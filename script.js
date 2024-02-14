@@ -99,9 +99,9 @@ function formatTime(time) {
 function playSound(type) {
     let audio;
     if (type === 'beep') {
-        audio = new Audio('beep.mp3');
+        audio = new Audio('./beep.mp3');
     } else if (type === 'buzzer') {
-        audio = new Audio('buzzer.mp3');
+        audio = new Audio('./buzzer.mp3');
     }
     audio.play();
 }
